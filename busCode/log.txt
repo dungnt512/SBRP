@@ -1,0 +1,40 @@
+Input 0: Canberra
+331 296 3925 K 4.800000 1.000000 45 70 5.000000 15.000000 .\solver -i Canberra -m 45 -c 70 -d 5.000000 15.000000
+Processing Canberra.bus WalkingDists=GoogleMaps,Created=01/09/2017 11:21:01
+Solver time: 144.553 seconds
+Input 1: Adelaide
+1188 342 34192 K 1.600000 1.600000 45 70 5.000000 15.000000 .\solver -i Adelaide -m 45 -c 70 -d 5.000000 15.000000
+Processing Adelaide.bus WalkingDists=BingMaps,Created=29/08/2017 17:21:17
+Solver time: 7788.786 seconds
+Input 2: Bridgend
+633 221 10019 K 4.820000 1.600000 45 70 5.000000 15.000000 .\solver -i Bridgend -m 45 -c 70 -d 5.000000 15.000000
+Processing Bridgend.bus WalkingDists=GoogleMaps,Created=21/08/2017 13:12:14
+Solver time: 2485.911 seconds
+Input 3: Brisbane
+1817 438 34708 K 3.200000 1.600000 45 70 5.000000 15.000000 .\solver -i Brisbane -m 45 -c 70 -d 5.000000 15.000000
+Processing Brisbane.bus WalkingDists=BingMaps,Created=15/09/2017 09:20:21
+Solver time: 7679.006 seconds
+Input 4: Cardiff
+552 90 5753 K 4.800000 1.600000 45 70 5.000000 15.000000 .\solver -i Cardiff -m 45 -c 70 -d 5.000000 15.000000
+Processing Cardiff.bus WalkingDists=GoogleMaps,Created=18/08/2017 11:14:27
+Solver time: 21.871 seconds
+Input 5: Edinburgh-1
+959 409 34594 K 1.600000 1.600000 45 70 5.000000 15.000000 .\solver -i Edinburgh-1 -m 45 -c 70 -d 5.000000 15.000000
+Processing Edinburgh-1.bus WalkingDists=BingMaps,Created=23/08/2017 14:14:17
+Solver time: 3882.114 seconds
+Input 6: Edinburgh-2
+917 190 48666 K 1.600000 1.600000 45 70 5.000000 15.000000 .\solver -i Edinburgh-2 -m 45 -c 70 -d 5.000000 15.000000
+Processing Edinburgh-2.bus WalkingDists=BingMaps,Created=15/08/2017 11:44:37
+Solver time: 620.981 seconds
+Input 7: MiltonKeynes
+579 149 9612 K 4.800000 1.600000 45 70 5.000000 15.000000 .\solver -i MiltonKeynes -m 45 -c 70 -d 5.000000 15.000000
+Processing MiltonKeynes.bus WalkingDists=GoogleMaps,Created=18/09/2017 11:34:27
+Solver time: 563.921 seconds
+Input 8: Porthcawl
+153 42 2246 K 3.200000 1.600000 45 70 5.000000 15.000000 .\solver -i Porthcawl -m 45 -c 70 -d 5.000000 15.000000
+Processing Porthcawl.bus WalkingDists=GoogleMaps,Created=11/08/2017 09:00:15
+Solver time: 14.293 seconds
+Input 9: Suffolk
+174 123 1276 K 4.800000 1.600000 45 70 5.000000 15.000000 .\solver -i Suffolk -m 45 -c 70 -d 5.000000 15.000000
+Processing Suffolk.bus WalkingDists=GoogleMaps,Created=21/09/2017 14:25:43
+Solver time: 91.363 seconds
