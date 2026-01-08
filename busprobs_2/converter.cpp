@@ -42,15 +42,15 @@ string inputs[] = {
   // "Porthcawl",
   // "Suffolk"
   "Birkirkara",
-  "Hamrun",
-  "Handaq",
-  "Mellieha",
-  "Mgarr",
-  "Pembroke",
-  "Qrendi",
-  "Senglea",
-  "Valletta",
-  "Victoria"
+  // "Hamrun",
+  // "Handaq",
+  // "Mellieha",
+  // "Mgarr",
+  // "Pembroke",
+  // "Qrendi",
+  // "Senglea",
+  // "Valletta",
+  // "Victoria"
 };
 
 struct Stop {

@@ -31,26 +31,26 @@ char tmp_c;
 char tmp_s[256];
 
 string inputs[] = {
-  // "Canberra",
-  // "Adelaide",
-  // "Bridgend",
-  // "Brisbane",
-  // "Cardiff",
-  // "Edinburgh-1",
-  // "Edinburgh-2",
-  // "MiltonKeynes",
-  // "Porthcawl",
-  // "Suffolk"
-  "Birkirkaria",
-  "Hamrun",
-  "Handaq",
-  "Mellieha",
-  "Mgarr",
-  "Pembroke",
-  "Qrendi",
-  "Senglea",
-  "Valletta",
-  "Victoria"
+  "Canberra",
+  "Adelaide",
+  "Bridgend",
+  "Brisbane",
+  "Cardiff",
+  "Edinburgh-1",
+  "Edinburgh-2",
+  "MiltonKeynes",
+  "Porthcawl",
+  "Suffolk"
+  // "Birkirkaria",
+  // "Hamrun",
+  // "Handaq",
+  // "Mellieha",
+  // "Mgarr",
+  // "Pembroke",
+  // "Qrendi",
+  // "Senglea",
+  // "Valletta",
+  // "Victoria"
 };
 
 struct Stop {
@@ -87,7 +87,7 @@ std::string string_format( const std::string& format, Args ... args ) {
 int main() {
   cin.tie(0)->sync_with_stdio(0);
 
-  int iter = 10;
+  int iter = 0;
   for (auto &input : inputs) {
     FILE *fptr = fopen((input + ".bus").c_str(), "r");
     // cerr << fptr << "\n";
@@ -174,11 +174,11 @@ int main() {
     }
     fclose(ofptr);
 
-    // ll startTime = chrono::high_resolution_clock::now().time_since_epoch().count();
-    // // system(("./solver -i " + input).c_str());
-    // system(command.c_str());
-    // ll endTime = chrono::high_resolution_clock::now().time_since_epoch().count();
-    // printf("Solver time: %.3lf seconds\n", (endTime - startTime) / 1e9);
+    ll startTime = chrono::high_resolution_clock::now().time_since_epoch().count();
+    // system(("./solver -i " + input).c_str());
+    system(command.c_str());
+    ll endTime = chrono::high_resolution_clock::now().time_since_epoch().count();
+    printf("Solver time: %.3lf seconds\n", (endTime - startTime) / 1e9);
 
     // // fptr = fopen("result.out", "r");
     // // if (!fptr) {
@@ -191,12 +191,12 @@ int main() {
     // // while (fscanf(fptr, "%s", tmp_s) != EOF) {
     // //   fprintf(ofptr, "%s ", tmp_s);
     // // }
-    // ifstream result("result.out");
-    // ofstream out(to_str(iter) + ".out");
-    // string line;
-    // while (getline(result, line)) {
-    //   out << line << "\n";
-    // }
+    ifstream result("result.out");
+    ofstream out(to_str(iter) + ".out");
+    string line;
+    while (getline(result, line)) {
+      out << line << "\n";
+    }
 
     iter++;
   }

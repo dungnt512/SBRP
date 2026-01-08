@@ -1,0 +1,40 @@
+Input 10: Birkirkara
+469 181 4626 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Birkirkara -m 45 -c 70 -d 5.000000 15.000000
+Processing Birkirkara.bus WalkingDists=BingMaps,Created=15/06/2021 10:01:59
+Solver time: 1642.499 seconds
+Input 11: Hamrun
+518 192 5028 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Hamrun -m 45 -c 70 -d 5.000000 15.000000
+Processing Hamrun.bus WalkingDists=BingMaps,Created=21/06/2021 13:19:20
+Solver time: 1626.591 seconds
+Input 12: Handaq
+393 170 3471 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Handaq -m 45 -c 70 -d 5.000000 15.000000
+Processing Handaq.bus WalkingDists=BingMaps,Created=14/06/2021 16:12:29
+Solver time: 1894.421 seconds
+Input 13: Mellieha
+86 98 617 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Mellieha -m 45 -c 70 -d 5.000000 15.000000
+Processing Mellieha.bus WalkingDists=BingMaps,Created=14/06/2021 12:00:14
+Solver time: 17.606 seconds
+Input 14: Mgarr
+60 110 657 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Mgarr -m 45 -c 70 -d 5.000000 15.000000
+Processing Mgarr.bus WalkingDists=BingMaps,Created=14/06/2021 09:55:11
+Solver time: 11.390 seconds
+Input 15: Pembroke
+322 200 4601 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Pembroke -m 45 -c 70 -d 5.000000 15.000000
+Processing Pembroke.bus WalkingDists=BingMaps,Created=18/06/2021 11:57:07
+Solver time: 209.137 seconds
+Input 16: Qrendi
+158 150 2528 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Qrendi -m 45 -c 70 -d 5.000000 15.000000
+Processing Qrendi.bus WalkingDists=BingMaps,Created=14/06/2021 13:49:22
+Solver time: 71.680 seconds
+Input 17: Senglea
+186 158 3980 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Senglea -m 45 -c 70 -d 5.000000 15.000000
+Processing Senglea.bus WalkingDists=BingMaps,Created=14/06/2021 14:21:38
+Solver time: 367.660 seconds
+Input 18: Valletta
+445 159 4518 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Valletta -m 45 -c 70 -d 5.000000 15.000000
+Processing Valletta.bus WalkingDists=BingMaps,Created=14/06/2021 23:29:08
+Solver time: 1802.170 seconds
+Input 19: Victoria
+316 99 1333 K 1.000000 1.000000 45 70 5.000000 15.000000 .\solver -i Victoria -m 45 -c 70 -d 5.000000 15.000000
+Processing Victoria.bus WalkingDists=BingMaps,Created=14/06/2021 09:21:07
+Solver time: 541.716 seconds

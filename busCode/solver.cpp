@@ -3121,7 +3121,7 @@ int main(int argc, char *argv[]){
 		}
 	}
   ofstream result("result.out");
-  printSln(result, S);
+  printSln(result, A.front());
 	endTime = clock();
 	totalTime = (int)(((endTime - startTime) / double(CLOCKS_PER_SEC)) * 1000);
 	if (verbosity >= 1) {
