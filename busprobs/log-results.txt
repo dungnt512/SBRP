@@ -1,0 +1,2 @@
+Canberra	331	296	499	kms	1	4.8	13.2601	11.8939	5	15	70	45	1	8	10	10	AllCoverings	8	12065	30	1	31	0	foundFeas	9	9	22607	
+Canberra	331	296	499	kms	1	4.8	13.2601	11.8939	5	15	70	45	1	8	10	10	AllCoverings	8	12065	30	1	31	0	foundFeas	7	7	36019	
